@@ -1,0 +1,35 @@
+/* element stylings */
+
+body {
+    background-color: lightblue;
+}
+
+header {
+    background-color: royalblue;
+    display: flex;
+}
+
+nav ul {
+    display: flex;
+    justify-content: space-around;
+}
+
+header a {
+    color: white;
+    text-decoration: none;
+}
+
+h1 {
+    font-size: 4rem;
+}
+
+img {
+    width: 80%;
+}
+
+/* class stylings */
+
+.nav-title {
+    font-size: 3rem;
+    margin: 2% auto 5% 20px;
+}
