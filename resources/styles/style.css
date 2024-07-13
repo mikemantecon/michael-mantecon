@@ -57,6 +57,8 @@ footer {
     background-color: royalblue;
     color: white;
     font-size: 2rem;
+    margin-top: 100px;
+    padding: 50px;
 }
 
 /* class stylings */
@@ -91,7 +93,7 @@ footer {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr;
     grid-column-gap: 5%;
-    grid-row-gap: 10%;
+    grid-row-gap: 30%;
 }
 
 .first-button {
