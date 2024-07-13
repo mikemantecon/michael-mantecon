@@ -41,6 +41,18 @@ main {
     text-align: center;
 }
 
+button {
+    background-color: #0073e6;
+    color: white;
+    padding: 1% 2%;
+    font-size: 2.5rem;
+}
+
+button a {
+    color: white;
+    text-decoration: none;
+}
+
 footer {
     background-color: royalblue;
     color: white;
@@ -72,4 +84,20 @@ footer {
 .subtitle {
     font-size: 2rem;
     margin: 10%;
+}
+
+.future {
+    margin: 5% auto;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-column-gap: 5%;
+    grid-row-gap: 10%;
+}
+
+.first-button {
+    grid-column: 2/4;
+}
+
+.button {
+    visibility: hidden;
 }
