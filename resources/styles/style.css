@@ -32,6 +32,11 @@ h1 {
     font-size: 5rem;
 }
 
+h2 {
+    font-size: 4rem;
+    padding: 3% 0;
+}
+
 img {
     width: 90%;
     border: 2px solid white;
@@ -86,11 +91,26 @@ footer {
 
 .hero-copy {
     margin: 3%;
+    width: 100%;
 }
 
 .subtitle {
     font-size: 2rem;
     margin: 10%;
+}
+
+.content {
+    background-color: rgba(75,0,130,.7);
+    margin: 3% auto;
+    color: white;
+}
+
+.content p {
+    font-size: 2rem;
+    width: 80%;
+    margin: auto auto 25px auto;
+    line-height: 1.6;
+    text-align: justify;
 }
 
 .future {
