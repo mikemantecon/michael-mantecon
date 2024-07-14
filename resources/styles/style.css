@@ -142,3 +142,56 @@ footer {
     padding-bottom: 50px;
     font-style:italic;
 }
+
+/* Media Queries */
+
+@media only screen and (max-width: 1023px) {
+
+    /* element stylings */
+
+    header {
+        width: 100%;
+    }
+
+    nav {
+        visibility: collapse;
+        overflow: auto;
+    }
+
+    h1 {
+        font-size: 3rem;
+    }
+
+    footer {
+        font-size: 1.5rem;
+    }
+
+    /* class stylings */
+    
+    .hero {
+        display: block;
+        margin: 15% auto;
+    }
+
+    .hero-copy {
+        margin: 0;
+    }
+
+    .future {
+        display: block;
+    }
+
+    #center-p {
+        padding-top: 35px;
+    }
+}
+
+@media only screen and (min-width: 481px) and (max-width: 1023px) {
+
+    .future {
+        display: grid;
+    }
+    .future a {
+        font-size: 1.25rem;
+    }
+}
