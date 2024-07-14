@@ -54,7 +54,8 @@ button {
     background-color: #0073e6;
     color: white;
     padding: 1% 2%;
-    font-size: 2.5rem;
+    font-size: 2rem;
+    margin: 2% 5%;
 }
 
 button a {
@@ -127,4 +128,17 @@ footer {
 
 .button {
     visibility: hidden;
+}
+
+/* ID Stylings */
+
+#center-p {
+    text-align: center;
+    font-size: 2.5rem;
+    padding-bottom: 50px;
+}
+
+#padding-p {
+    padding-bottom: 50px;
+    font-style:italic;
 }
